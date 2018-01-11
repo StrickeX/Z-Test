@@ -1,2 +1,0 @@
-# Z-Test
-WT Projekt
