@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="z.css">
+  <script src="z.js"></script>
+</head>
+<body>
+<span style="display:flex;">
+		<div class="button-group" style="width: 100%">
+  			<button class="button button1" style="width:20%">
+  				<img src="https://cdn.discordapp.com/attachments/299247471920545792/400233069153615872/Logo.png" alt="Logo" style="width: auto">
+			  </button>
+ 			 <button class="button button2" style="width: 60%" style="white-space: nowrap">PC Hardware comparison</button>
+ 			 <button onclick="log()" class="button button3" style="width: 20%">LogIn</button>
+		</div>
+	</span>
+
+
+<br>
+
+<span class="flex-container" id="container-log" style="display:none;">
+<div id="box">
+  <h1 id="link">Anmeldung</h1>
+<br>
+  <p class="feld">Name:</p><input class="in-log">
+<br>
+  <p class="feld">Passwort: </p><input class="in-log">
+<br>
+  <button id="reg" type="submit">Bestätigen</button>
+<br>
+  <p id="link" onclick="reg()">Neu registrieren!</p>
+</div>
+</span>
+
+<br>
+
+<span class="flex-container" id="container-reg" style="display:none;">
+<div id="box">
+	<h1 id="link">Account erstellen</h1>
+<br>
+	<p class="feld">Name:</p><input class="in-log">
+<br>
+	<p class="feld">Passwort: </p><input class="in-log">
+<br>
+	<button id="reg" type="submit">Bestätigen</button>
+<br>
+	<p  id="link" onclick="back()">Zurück zum Login!</p>
+</div>
+</span>
+
+<div class="flex-container" style="display:flex; ">
+<div id="main">
+	<form>
+		<label for="fname">Prozessor</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">Arbeitsspeicher</label><br>
+		<input type="text" id="search" placeholder="Search.."  class="in-star"><br>
+		<label for="fname">Grafikkarte</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">Mainboard</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">HDD</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">SSD</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">Netzteil</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+		<label for="fname">Gehäuse</label><br>
+		<input type="text" id="search" placeholder="Search.." class="in-star"><br>
+    <button class="button button4">Fertig</button>
+	</form>
+</div>
+</div>
+</body>
+</html>
