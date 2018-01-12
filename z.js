@@ -1,4 +1,4 @@
-src = "https://code.jquery.com/jquery-3.2.1.min.js";
+src = "https://code.jquery.com/jquery-latest.js";
 
 log = function(){
 document.getElementById("container-reg").style.display = "none";
