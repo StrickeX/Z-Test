@@ -1,5 +1,3 @@
-src = "https://code.jquery.com/jquery-latest.js";
-
 log = function(){
 document.getElementById("container-reg").style.display = "none";
 $('#main').addClass('blur');
